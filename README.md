@@ -36,4 +36,14 @@
 - 압축
 	- 현재 폴더 전체 압축: zip dir.zip ./\*
 	- 압축 풀기: unzip aaa.zip -d dirname
+- 편집기 명령어
+  - [vi, vim 명령어](https://hyeonstorage.tistory.com/274)
+
+
+
+
+
+# Reference
+
+- vi, vim 명령어 : [https://hyeonstorage.tistory.com/274](https://hyeonstorage.tistory.com/274)
 
