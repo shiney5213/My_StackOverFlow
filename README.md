@@ -12,3 +12,28 @@
 
 ## WorkSpace
 - [가상환경](https://github.com/shiney5213/My_StackOverFlow/blob/master/WorkSpace/1.%20virtualenv.md) : virtualenv, anaconda 사용
+
+
+
+## Linux
+- Prosess
+	- 진행중인 python ps 찾기: ps - ef |grep python
+	- ps  kill : sudo kill PID
+	- 모든 ps, 메모리 확인: top
+- dir, file 크기 확인
+	- 하위 dir, file 크기 모두 표시(K) : du /dir
+	- 선택한 dir, file 크기 확인(K) : du -r /dir
+- dir, file 개수
+	- 현 dir 내 dir 개수 : ls -l | grep ^d | wc -l
+	- 현 dir 내 파일 개수 : ls -l |gerp ^- |wc -l 
+- 파일 삭제
+	- 모든 파일 삭제 : rm \*
+	- 특정 파일 삭제 :  rm filename
+	- 특정 확장명 파일 삭제: rm \*.txt
+- dir 삭제
+	- dir 삭제: rm -r dir/
+	- 강제로 삭제: rm -rf dir/
+- 압축
+	- 현재 폴더 전체 압축: zip dir.zip ./\*
+	- 압축 풀기: unzip aaa.zip -d dirname
+
