@@ -18,7 +18,7 @@
 ## Linux
 - Prosess
 	- 진행중인 python ps 찾기: ps - ef |grep python
-	- ps  kill : sudo kill PID
+	- ps  kill : sudo kill PID / kill -9 PID
 	- 모든 ps, 메모리 확인: top
 - dir, file 크기 확인
 	- 하위 dir, file 크기 모두 표시(K) : du /dir
@@ -38,6 +38,8 @@
 	- 압축 풀기: unzip aaa.zip -d dirname
 - 편집기 명령어
   - [vi, vim 명령어](https://hyeonstorage.tistory.com/274)
+- nohup 
+  - nohup file.py >tf.log  1>&1 &
 
 
 
