@@ -12,6 +12,7 @@
 
 ## WorkSpace
 - [가상환경](https://github.com/shiney5213/My_StackOverFlow/blob/master/WorkSpace/1.%20virtualenv.md) : virtualenv, anaconda 사용
+- [Colab](https://github.com/shiney5213/My_StackOverFlow/blob/master/WorkSpace/2. google_colab_import.md)) : 내 파일 import (os.chdir()로 working directory 바꿔야 함.)
 
 
 
