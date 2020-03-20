@@ -22,8 +22,9 @@
 	- ps  kill : sudo kill PID / kill -9 PID
 	- 모든 ps, 메모리 확인: top
 - dir, file 크기 확인
-	- 하위 dir, file 크기 모두 표시(K) : du /dir
-	- 선택한 dir, file 크기 확인(K) : du -r /dir
+	- 하위 dir, file 크기 모두 표시(kbyte) : du /dir
+	- 선택한 dir, file 크기 확인(kbyte) : du -s /dir
+	- 읽기편한단휘로 확인(Mbyte): du -sh / dir
 - dir, file 개수
 	- 현 dir 내 dir 개수 : ls -l | grep ^d | wc -l
 	- 현 dir 내 파일 개수 : ls -l |gerp ^- |wc -l 
