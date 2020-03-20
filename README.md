@@ -41,7 +41,7 @@
 - 편집기 명령어
   - [vi, vim 명령어](https://hyeonstorage.tistory.com/274)
 - nohup 
-  - nohup file.py >tf.log  1>&1 &
+  - nohup file.py >tf.log  2>&1 &
 
 
 
