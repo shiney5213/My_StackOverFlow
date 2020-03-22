@@ -21,6 +21,10 @@
 	- 진행중인 python ps 찾기: ps - ef |grep python
 	- ps  kill : sudo kill PID / kill -9 PID
 	- 모든 ps, 메모리 확인: top
+	- 메모리 확인: df
+-  이동/복사
+  - dir전체 복사: cp -r 원래dir 목적지dir
+  - dir전체 이동: mv -r 원래dir 목적지dir
 - dir, file 크기 확인
 	- 하위 dir, file 크기 모두 표시(kbyte) : du /dir
 	- 선택한 dir, file 크기 확인(kbyte) : du -s /dir
