@@ -30,7 +30,7 @@
 	- 선택한 dir, file 크기 확인(kbyte) : du -s /dir
 	- 읽기편한단휘로 확인(Mbyte): du -sh / dir
 - dir, file 개수
-	- 현 dir 내 dir 개수 : ls -l | grep ^d | wc -l
+	- 현 dir 내 dir 개수 : ls -l | grep ^d | wc -l      or        ls -A | wc -l
 	- 현 dir 내 파일 개수 : ls -l |grep ^- |wc -l 
 - 파일 삭제
 	- 모든 파일 삭제 : rm \*
