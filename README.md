@@ -12,7 +12,7 @@
 
 ## WorkSpace
 - [가상환경](https://github.com/shiney5213/My_StackOverFlow/blob/master/WorkSpace/1.%20virtualenv.md) : virtualenv, anaconda 사용
-- [Colab](https://github.com/shiney5213/My_StackOverFlow/blob/master/WorkSpace/2. google_colab_import.md)) : 내 파일 import (os.chdir()로 working directory 바꿔야 함.)
+- [Colab](https://github.com/shiney5213/My_StackOverFlow/blob/master/WorkSpace/2. google_colab_import.md) : 내 파일 import (os.chdir()로 working directory 바꿔야 함.)
 
 
 
@@ -28,7 +28,7 @@
 - dir, file 크기 확인
 	- 하위 dir, file 크기 모두 표시(kbyte) : du /dir
 	- 선택한 dir, file 크기 확인(kbyte) : du -s /dir
-	- 읽기편한단휘로 확인(Mbyte): du -sh / dir
+	- 읽기편한단위로 확인(Mbyte): du -sh / dir
 - dir, file 개수
 	- 현 dir 내 dir 개수 : ls -l | grep ^d | wc -l      or        ls -A | wc -l     
 	- 현 dir 내 파일 개수 : ls -l |grep ^- |wc -l    
@@ -46,6 +46,8 @@
 	- 압축 풀기: unzip aaa.zip -d dirname
 - 편집기 명령어
   - [vi, vim 명령어](https://hyeonstorage.tistory.com/274)
+- 파일의 내용을 뒤에서부터 출력
+  - 파일에 내용이 뒤에 추가될때마다 추가된 내용 보내줌: tail -f file
 - nohup 
   - nohup file.py >tf.log  2>&1 &
 
