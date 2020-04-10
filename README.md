@@ -51,6 +51,12 @@
 - nohup 
   - nohup file.py >tf.log  2>&1 &
 
+- 포그라운드 -> 백그라운드
+  - ctrl + z: stoped
+  - jobs : 실행한 ps에 대해 확인하는 명령어
+  - bg %1 : 백그라운드로 실행 ( 명령어 뒤에 &가 붙어서 실행됨)
+- CUDA 버전 확인: nvcc --version
+
 
 
 
