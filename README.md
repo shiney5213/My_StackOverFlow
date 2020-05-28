@@ -5,7 +5,7 @@
 ## Python
 - [중첩 리스트 flatten](https://github.com/shiney5213/My_StackOverFlow/blob/master/1.%20python-list_flatten.ipynb) :  sum(list, [])  이용
 - [paths.list_image](https://github.com/shiney5213/My_StackOverFlow/blob/master/2.%20python-fine_imga_in_dir.ipynb) : 폴더 내 있는 모든 이미지 찾기(imutils 패키지)
-- [random](https://github.com/shiney5213/My_StackOverFlow/blob/master/3.%20python-list_random_shuffle_.ipynb) : random.shuffle(), random.sample(), random.randint() 등
+- [random](https://github.com/shiney5213/My_StackOverFlow/blob/master/python/3. python-list_random_shuffle_.ipynb) : random.shuffle(), random.sample(), random.randint() 등
 - [if elif else문](https://github.com/shiney5213/Study-Algorithm/blob/master/단계별로풀어보기/10.9_1002(터렛).ipynb)
   - 출력값 if(조건) else 출력값 if (조건) else 출력값 if(조건)
   - 예: -1 if (r==0 and r1==r2) else 1 if (r == r1+r2 or m==sum(R)) else 0 if (m > sum(R)) else 2
